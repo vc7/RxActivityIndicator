@@ -14,6 +14,8 @@
 		880343191DE303160055DA33 /* RxSwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxSwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8803436B1DE396290055DA33 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436A1DE396290055DA33 /* ActivityIndicator.swift */; };
 		8803436F1DE397170055DA33 /* ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */; };
+		888291AA1DFAB459007E1E6B /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888291A91DFAB458007E1E6B /* TwoWayBinding.swift */; };
+		888291AE1DFAB9CF007E1E6B /* TwoWayBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888291AB1DFAB462007E1E6B /* TwoWayBindingTests.swift */; };
 		888CC1A91DE48A1000DAE48A /* RxSwiftUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1A01DE48A1000DAE48A /* RxSwiftUtilities.framework */; };
 		888CC1B81DE48AD700DAE48A /* RxSwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxSwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		888CC1B91DE48ADF00DAE48A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436A1DE396290055DA33 /* ActivityIndicator.swift */; };
@@ -72,6 +74,8 @@
 		880343181DE303160055DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8803436A1DE396290055DA33 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorTests.swift; sourceTree = "<group>"; };
+		888291A91DFAB458007E1E6B /* TwoWayBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
+		888291AB1DFAB462007E1E6B /* TwoWayBindingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoWayBindingTests.swift; sourceTree = "<group>"; };
 		888CC1A01DE48A1000DAE48A /* RxSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		888CC1A81DE48A1000DAE48A /* RxSwiftUtilitiesTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwiftUtilitiesTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		888CC1CC1DE48E9000DAE48A /* RxSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				8803436A1DE396290055DA33 /* ActivityIndicator.swift */,
+				888291A91DFAB458007E1E6B /* TwoWayBinding.swift */,
 				880343321DE315A90055DA33 /* Supporting Files */,
 			);
 			path = Source;
@@ -210,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */,
+				888291AB1DFAB462007E1E6B /* TwoWayBindingTests.swift */,
 				880343331DE315B70055DA33 /* Supporting Files */,
 			);
 			path = Tests;
@@ -806,6 +812,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888291AA1DFAB459007E1E6B /* TwoWayBinding.swift in Sources */,
 				8803436B1DE396290055DA33 /* ActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -814,6 +821,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888291AE1DFAB9CF007E1E6B /* TwoWayBindingTests.swift in Sources */,
 				8803436F1DE397170055DA33 /* ActivityIndicatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
