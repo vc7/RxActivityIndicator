@@ -100,9 +100,9 @@ cd RxSwiftUtilities
 > Or use your own forked repo.
 
 ```shell
-carthage bootstrap
+pod install
 ```
 > This is necessary in order to be able to build the framework on its own and run tests.
-However, if you prefer, you can instead develop it while it's within another project.
+However, if you prefer, you can instead develop it while it's within another project, which would also allow you to use Carthage instead.
 
-Before submitting a PR, please make sure that the tests pass.
+Please make sure that code is covered by tests and that all tests pass.
