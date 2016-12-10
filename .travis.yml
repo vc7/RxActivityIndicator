@@ -1,5 +1,9 @@
 language: objective-c
 osx_image: xcode8
-script: xcodebuild clean build test -workspace 'RxSwiftUtilities.xcworkspace' -scheme 'RxSwiftUtilities iOS' -destination "platform=iOS Simulator,name=iPhone 6S" -enableCodeCoverage YES
+script:
+  - xcodebuild clean build test -workspace 'RxSwiftUtilities.xcworkspace' -scheme 'RxSwiftUtilities iOS' -destination "name=iPhone 6S" -enableCodeCoverage YES
+  - xcodebuild clean build test -workspace 'RxSwiftUtilities.xcworkspace' -scheme 'RxSwiftUtilities macOS' -destination "platform=macOS" -enableCodeCoverage YES
+  - xcodebuild clean build test -workspace 'RxSwiftUtilities.xcworkspace' -scheme 'RxSwiftUtilities tvOS' -destination "name=Apple TV 1080p" -enableCodeCoverage YES
+  - xcodebuild clean build -workspace 'RxSwiftUtilities.xcworkspace' -scheme 'RxSwiftUtilities watchOS' -destination "name=Apple Watch - 38mm"
 after_success:
   - bash <(curl -s https://codecov.io/bash) -J 'RxSwiftUtilities'
