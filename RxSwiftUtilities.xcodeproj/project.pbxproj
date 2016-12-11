@@ -16,6 +16,8 @@
 		8803436F1DE397170055DA33 /* ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */; };
 		888291AA1DFAB459007E1E6B /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888291A91DFAB458007E1E6B /* TwoWayBinding.swift */; };
 		888291AE1DFAB9CF007E1E6B /* TwoWayBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888291AB1DFAB462007E1E6B /* TwoWayBindingTests.swift */; };
+		888292071DFDA31B007E1E6B /* TwoWayBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888291AB1DFAB462007E1E6B /* TwoWayBindingTests.swift */; };
+		888292081DFDA78E007E1E6B /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888291A91DFAB458007E1E6B /* TwoWayBinding.swift */; };
 		888CC1A91DE48A1000DAE48A /* RxSwiftUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1A01DE48A1000DAE48A /* RxSwiftUtilities.framework */; };
 		888CC1B81DE48AD700DAE48A /* RxSwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxSwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		888CC1B91DE48ADF00DAE48A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436A1DE396290055DA33 /* ActivityIndicator.swift */; };
@@ -846,6 +848,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888292081DFDA78E007E1E6B /* TwoWayBinding.swift in Sources */,
 				888CC1E41DE48FB300DAE48A /* ActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -854,6 +857,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888292071DFDA31B007E1E6B /* TwoWayBindingTests.swift in Sources */,
 				888CC1E51DE48FBA00DAE48A /* ActivityIndicatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

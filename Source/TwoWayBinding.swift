@@ -9,9 +9,13 @@
 //  https://github.com/ReactiveX/RxSwift/blob/f614235/RxExample/RxExample/Operators.swift
 //
 
-import UIKit
 import RxSwift
 import RxCocoa
+#if os(macOS)
+    import Cocoa
+#else
+    import UIKit
+#endif
 
 infix operator <-> : DefaultPrecedence
 

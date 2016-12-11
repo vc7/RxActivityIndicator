@@ -10,41 +10,53 @@ import XCTest
 import RxSwiftUtilities
 import RxSwift
 import RxCocoa
-import UIKit
+#if os(macOS)
+    import Cocoa
+    typealias TextView = NSTextView
+    extension NSTextView {
+        var text: String {
+            set { self.string = newValue }
+            get { return self.string ?? "" }
+        }
+    }
+#else
+    import UIKit
+    typealias TextView = UITextView
+#endif
 
 class TwoWayBindingTests: XCTestCase {
-    
-    func testOverwritesTextUIWithSubjectValue() {
-        let textField = UITextField()
-        textField.text = "overwritten text in text field"
+
+    func testOverwritesTextViewWithSubjectValue() {
+        let textView = TextView()
+        textView.text = "overwritten text in text view"
         let variable = Variable<String>("initial subject value")
         
-        _ = textField.rx.textInput <-> variable
+        _ = textView.rx.textInput <-> variable
         
         XCTAssertEqual(variable.value, "initial subject value")
-        XCTAssertEqual(textField.text, "initial subject value")
+        XCTAssertEqual(textView.text, "initial subject value")
     }
     
-    func testTextUIUpdatesSubjectValue() {
-        let textUI = UITextView()
+    func testTextViewUpdatesSubjectValue() {
+        let textView = TextView()
         let variable = Variable<String>("initial subject value")
 
-        _ = textUI.rx.textInput <-> variable
+        _ = textView.rx.textInput <-> variable
 
         // See comments at the end of the file
         let exp = expectation(description: "correct text")
         _ = variable.asObservable()
             .subscribe(onNext: { text in
-                if text == "new text field text" {
+                if text == "new text view text" {
                     exp.fulfill()
                 }
             })
 
-        textUI.text = "new text field text"
+        textView.text = "new text view text"
 
         waitForExpectations(timeout: 0.5, handler: nil)
-        XCTAssertEqual(variable.value, "new text field text")
-        XCTAssertEqual(textUI.text, "new text field text")
+        XCTAssertEqual(variable.value, "new text view text")
+        XCTAssertEqual(textView.text, "new text view text")
     }
 
 }
