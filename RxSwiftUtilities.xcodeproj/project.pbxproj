@@ -12,20 +12,23 @@
 		7337A2E4640316C546A21595 /* Pods_RxSwiftUtilities_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547FD40D1DF6D83A47769F17 /* Pods_RxSwiftUtilities_iOS.framework */; };
 		865387A85FB96E1D989F11CA /* Pods_RxSwiftUtilities_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC91C8C55D2EC35F9F1608E /* Pods_RxSwiftUtilities_macOS.framework */; };
 		880343191DE303160055DA33 /* RxSwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxSwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8803436B1DE396290055DA33 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436A1DE396290055DA33 /* ActivityIndicator.swift */; };
-		8803436F1DE397170055DA33 /* ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */; };
-		888291AA1DFAB459007E1E6B /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888291A91DFAB458007E1E6B /* TwoWayBinding.swift */; };
-		888291AE1DFAB9CF007E1E6B /* TwoWayBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888291AB1DFAB462007E1E6B /* TwoWayBindingTests.swift */; };
+		885B03521E0D534700DC8A67 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B03511E0D534700DC8A67 /* ActivityIndicator.swift */; };
+		885B03531E0D534700DC8A67 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B03511E0D534700DC8A67 /* ActivityIndicator.swift */; };
+		885B03541E0D534700DC8A67 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B03511E0D534700DC8A67 /* ActivityIndicator.swift */; };
+		885B03551E0D534700DC8A67 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B03511E0D534700DC8A67 /* ActivityIndicator.swift */; };
+		885B03581E0D535800DC8A67 /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B03571E0D535800DC8A67 /* TwoWayBinding.swift */; };
+		885B03591E0D535800DC8A67 /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B03571E0D535800DC8A67 /* TwoWayBinding.swift */; };
+		885B035A1E0D535800DC8A67 /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B03571E0D535800DC8A67 /* TwoWayBinding.swift */; };
+		885B03661E0D564400DC8A67 /* ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B03611E0D537E00DC8A67 /* ActivityIndicatorTests.swift */; };
+		885B03671E0D564500DC8A67 /* ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B03611E0D537E00DC8A67 /* ActivityIndicatorTests.swift */; };
+		885B03681E0D564900DC8A67 /* ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B03611E0D537E00DC8A67 /* ActivityIndicatorTests.swift */; };
+		885B03691E0D565000DC8A67 /* TwoWayBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B035C1E0D537500DC8A67 /* TwoWayBindingTests.swift */; };
+		885B036A1E0D565100DC8A67 /* TwoWayBindingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B035C1E0D537500DC8A67 /* TwoWayBindingTests.swift */; };
 		888CC1A91DE48A1000DAE48A /* RxSwiftUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1A01DE48A1000DAE48A /* RxSwiftUtilities.framework */; };
 		888CC1B81DE48AD700DAE48A /* RxSwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxSwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		888CC1B91DE48ADF00DAE48A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436A1DE396290055DA33 /* ActivityIndicator.swift */; };
-		888CC1BA1DE48AE400DAE48A /* ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */; };
 		888CC1D51DE48E9100DAE48A /* RxSwiftUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1CC1DE48E9000DAE48A /* RxSwiftUtilities.framework */; };
 		888CC1E31DE48F9A00DAE48A /* RxSwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxSwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		888CC1E41DE48FB300DAE48A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436A1DE396290055DA33 /* ActivityIndicator.swift */; };
-		888CC1E51DE48FBA00DAE48A /* ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */; };
 		88E73C691DE481F600C0D2F6 /* RxSwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxSwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88E73C6A1DE4821F00C0D2F6 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436A1DE396290055DA33 /* ActivityIndicator.swift */; };
 		CF07CDC94D4BADE642C82F24 /* Pods_RxSwiftUtilitiesTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29C5A87ADCBCFA0B7E56434 /* Pods_RxSwiftUtilitiesTests_tvOS.framework */; };
 		DBA879A4DF86FFBAB5265E86 /* Pods_RxSwiftUtilities_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72C3751CFFA1B2DA8C87D58 /* Pods_RxSwiftUtilities_watchOS.framework */; };
 		F7A696CC743148B5196523AF /* Pods_RxSwiftUtilitiesTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4F0567C22FF39FF18BED46 /* Pods_RxSwiftUtilitiesTests_iOS.framework */; };
@@ -72,10 +75,10 @@
 		8803430C1DE303160055DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		880343111DE303160055DA33 /* RxSwiftUtilitiesTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwiftUtilitiesTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		880343181DE303160055DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8803436A1DE396290055DA33 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
-		8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorTests.swift; sourceTree = "<group>"; };
-		888291A91DFAB458007E1E6B /* TwoWayBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
-		888291AB1DFAB462007E1E6B /* TwoWayBindingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoWayBindingTests.swift; sourceTree = "<group>"; };
+		885B03511E0D534700DC8A67 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		885B03571E0D535800DC8A67 /* TwoWayBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
+		885B035C1E0D537500DC8A67 /* TwoWayBindingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoWayBindingTests.swift; sourceTree = "<group>"; };
+		885B03611E0D537E00DC8A67 /* ActivityIndicatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorTests.swift; sourceTree = "<group>"; };
 		888CC1A01DE48A1000DAE48A /* RxSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		888CC1A81DE48A1000DAE48A /* RxSwiftUtilitiesTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwiftUtilitiesTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		888CC1CC1DE48E9000DAE48A /* RxSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,8 +207,8 @@
 		8803430A1DE303160055DA33 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				8803436A1DE396290055DA33 /* ActivityIndicator.swift */,
-				888291A91DFAB458007E1E6B /* TwoWayBinding.swift */,
+				885B03501E0D534700DC8A67 /* Common */,
+				885B03561E0D535800DC8A67 /* UIKit */,
 				880343321DE315A90055DA33 /* Supporting Files */,
 			);
 			path = Source;
@@ -214,8 +217,8 @@
 		880343151DE303160055DA33 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */,
-				888291AB1DFAB462007E1E6B /* TwoWayBindingTests.swift */,
+				885B03601E0D537E00DC8A67 /* Common */,
+				885B035B1E0D537500DC8A67 /* UIKit */,
 				880343331DE315B70055DA33 /* Supporting Files */,
 			);
 			path = Tests;
@@ -236,6 +239,38 @@
 				880343181DE303160055DA33 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		885B03501E0D534700DC8A67 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				885B03511E0D534700DC8A67 /* ActivityIndicator.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		885B03561E0D535800DC8A67 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				885B03571E0D535800DC8A67 /* TwoWayBinding.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		885B035B1E0D537500DC8A67 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				885B035C1E0D537500DC8A67 /* TwoWayBindingTests.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		885B03601E0D537E00DC8A67 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				885B03611E0D537E00DC8A67 /* ActivityIndicatorTests.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		FA63D2114E50E889FB0045E0 /* Frameworks */ = {
@@ -812,8 +847,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888291AA1DFAB459007E1E6B /* TwoWayBinding.swift in Sources */,
-				8803436B1DE396290055DA33 /* ActivityIndicator.swift in Sources */,
+				885B03581E0D535800DC8A67 /* TwoWayBinding.swift in Sources */,
+				885B03521E0D534700DC8A67 /* ActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,8 +856,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888291AE1DFAB9CF007E1E6B /* TwoWayBindingTests.swift in Sources */,
-				8803436F1DE397170055DA33 /* ActivityIndicatorTests.swift in Sources */,
+				885B03691E0D565000DC8A67 /* TwoWayBindingTests.swift in Sources */,
+				885B03661E0D564400DC8A67 /* ActivityIndicatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -830,7 +865,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CC1B91DE48ADF00DAE48A /* ActivityIndicator.swift in Sources */,
+				885B03591E0D535800DC8A67 /* TwoWayBinding.swift in Sources */,
+				885B03541E0D534700DC8A67 /* ActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -838,7 +874,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CC1BA1DE48AE400DAE48A /* ActivityIndicatorTests.swift in Sources */,
+				885B036A1E0D565100DC8A67 /* TwoWayBindingTests.swift in Sources */,
+				885B03671E0D564500DC8A67 /* ActivityIndicatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -846,7 +883,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CC1E41DE48FB300DAE48A /* ActivityIndicator.swift in Sources */,
+				885B03531E0D534700DC8A67 /* ActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -854,7 +891,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CC1E51DE48FBA00DAE48A /* ActivityIndicatorTests.swift in Sources */,
+				885B03681E0D564900DC8A67 /* ActivityIndicatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -862,7 +899,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E73C6A1DE4821F00C0D2F6 /* ActivityIndicator.swift in Sources */,
+				885B035A1E0D535800DC8A67 /* TwoWayBinding.swift in Sources */,
+				885B03551E0D534700DC8A67 /* ActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1035,7 +1073,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 480A3684F1FA0AA10F95E7FB /* Pods-RxSwiftUtilitiesTests iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1049,7 +1086,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 552922FCEAB7AAC28C32B5B3 /* Pods-RxSwiftUtilitiesTests iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1107,7 +1143,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7ABBADC9701E2C3C1DA2BDA7 /* Pods-RxSwiftUtilitiesTests tvOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Source/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1123,7 +1158,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2CE897524CB685087D1E6D01 /* Pods-RxSwiftUtilitiesTests tvOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Source/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1185,7 +1219,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7C532AF7154306ABD1D49FC /* Pods-RxSwiftUtilitiesTests macOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -1203,7 +1236,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E392741CF96DEF82AB2D145C /* Pods-RxSwiftUtilitiesTests macOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
