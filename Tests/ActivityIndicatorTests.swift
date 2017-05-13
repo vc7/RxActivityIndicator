@@ -1,13 +1,13 @@
 //
 //  ActivityIndicatorTests.swift
-//  RxSwiftUtilities
+//  RxActivityIndicator
 //
 //  Created by Jesse Farless on 11/21/16.
 //  Copyright © 2016 RxSwiftCommunity. All rights reserved.
 //
 
 import XCTest
-import RxSwiftUtilities
+import RxActivityIndicator
 import RxSwift
 
 class ActivityIndicatorTests: XCTestCase {

@@ -1,20 +1,18 @@
-RxSwiftUtilities
+RxActivityIndicator
 ======================================
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/RxSwiftUtilities.svg)](https://img.shields.io/cocoapods/v/RxSwiftUtilities.svg)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/RxActivityIndicator.svg)](https://img.shields.io/cocoapods/v/RxActivityIndicator.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Platform](https://img.shields.io/cocoapods/p/RxSwiftUtilities.svg?style=flat)](http://cocoadocs.org/docsets/RxSwiftUtilities)
-[![Build Status](https://travis-ci.org/RxSwiftCommunity/RxSwiftUtilities.svg?branch=master)](https://travis-ci.org/RxSwiftCommunity/RxSwiftUtilities)
-[![codecov](https://codecov.io/gh/RxSwiftCommunity/RxSwiftUtilities/branch/master/graph/badge.svg)](https://codecov.io/gh/RxSwiftCommunity/RxSwiftUtilities)
+[![Platform](https://img.shields.io/cocoapods/p/RxActivityIndicator.svg?style=flat)](http://cocoadocs.org/docsets/RxActivityIndicator)
+[![Build Status](https://travis-ci.org/RxSwiftCommunity/RxActivityIndicator.svg?branch=master)](https://travis-ci.org/RxSwiftCommunity/RxActivityIndicator)
+[![codecov](https://codecov.io/gh/RxSwiftCommunity/RxActivityIndicator/branch/master/graph/badge.svg)](https://codecov.io/gh/RxSwiftCommunity/RxActivityIndicator)
 
 ## About
 
-Helpful classes and extensions for [RxSwift](https://github.com/ReactiveX/RxSwift) which don't belong in RxSwift core.
+The `ActivityIndicator` class monitors `Observable`s and will itself emit `true` if any have not completed, or `false` if all have completed. This is useful, for instance, when wanting to show network activity in the status bar while one or more `Observable`s are still active.
 
 ## Usage
 
-Check out the [Documentation](http://cocoadocs.org/docsets/RxSwiftUtilities), the examples below, or the [Example App](#example-app).
-
-#### ActivityIndicator
+Check out the [Documentation](http://cocoadocs.org/docsets/RxActivityIndicator), the examples below, or the [Example App](#example-app).
 
 ```swift
 let signingIn = ActivityIndicator()
@@ -61,7 +59,7 @@ In your `Podfile`:
 use_frameworks!
 
 target "YOUR_TARGET_NAME" do
-  pod "RxSwiftUtilities"
+  pod "RxActivityIndicator"
 end
 ```
 
@@ -78,7 +76,7 @@ pod install
 Add this to `Cartfile`
 
 ```
-github "RxSwiftCommunity/RxSwiftUtilities"
+github "RxSwiftCommunity/RxActivityIndicator"
 ```
 
 In the same directory, run:
@@ -87,15 +85,15 @@ In the same directory, run:
 carthage update
 ```
 
-Link/Embed frameworks as explained [here](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application). Besides linking `RxSwiftUtilities`, you will also need to link `RxSwift` and `RxCocoa`.
+Link/Embed frameworks as explained [here](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application). Besides linking `RxActivityIndicator`, you will also need to link `RxSwift` and `RxCocoa`.
 
 ## Contributing
 
 Help is always appreciated!
 
 ```shell
-git clone git@github.com:RxSwiftCommunity/RxSwiftUtilities.git
-cd RxSwiftUtilities
+git clone git@github.com:RxSwiftCommunity/RxActivityIndicator.git
+cd RxActivityIndicator
 ```
 > Or use your own forked repo.
 

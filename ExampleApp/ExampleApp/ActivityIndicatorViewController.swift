@@ -8,7 +8,7 @@
 
 import UIKit
 import RxSwift
-import RxSwiftUtilities
+import RxActivityIndicator
 
 class ActivityIndicatorViewController: UITableViewController {
 

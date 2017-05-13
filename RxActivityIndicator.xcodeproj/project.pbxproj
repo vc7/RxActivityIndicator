@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		880343121DE303160055DA33 /* RxSwiftUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880343081DE303160055DA33 /* RxSwiftUtilities.framework */; };
-		880343191DE303160055DA33 /* RxSwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxSwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		880343681DE395A20055DA33 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880343671DE395A20055DA33 /* RxCocoa.framework */; };
+		880343121DE303160055DA33 /* RxActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880343081DE303160055DA33 /* RxActivityIndicator.framework */; };
+		880343191DE303160055DA33 /* RxActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8803436B1DE396290055DA33 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436A1DE396290055DA33 /* ActivityIndicator.swift */; };
 		8803436F1DE397170055DA33 /* ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */; };
-		888CC1911DE4839900DAE48A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1901DE4839900DAE48A /* RxSwift.framework */; };
-		888CC1981DE4848300DAE48A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1961DE4843000DAE48A /* RxSwift.framework */; };
-		888CC1991DE4848500DAE48A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1941DE4842B00DAE48A /* RxCocoa.framework */; };
-		888CC1A91DE48A1000DAE48A /* RxSwiftUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1A01DE48A1000DAE48A /* RxSwiftUtilities.framework */; };
-		888CC1B81DE48AD700DAE48A /* RxSwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxSwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		888CC1A91DE48A1000DAE48A /* RxActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1A01DE48A1000DAE48A /* RxActivityIndicator.framework */; };
+		888CC1B81DE48AD700DAE48A /* RxActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		888CC1B91DE48ADF00DAE48A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436A1DE396290055DA33 /* ActivityIndicator.swift */; };
 		888CC1BA1DE48AE400DAE48A /* ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */; };
-		888CC1C01DE48C6B00DAE48A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1BE1DE48B1A00DAE48A /* RxCocoa.framework */; };
-		888CC1C11DE48C6D00DAE48A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1BC1DE48B1300DAE48A /* RxSwift.framework */; };
-		888CC1C31DE48DE400DAE48A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1BC1DE48B1300DAE48A /* RxSwift.framework */; };
-		888CC1C41DE48DE700DAE48A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1BE1DE48B1A00DAE48A /* RxCocoa.framework */; };
-		888CC1D51DE48E9100DAE48A /* RxSwiftUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1CC1DE48E9000DAE48A /* RxSwiftUtilities.framework */; };
-		888CC1E31DE48F9A00DAE48A /* RxSwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxSwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		888CC1D51DE48E9100DAE48A /* RxActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1CC1DE48E9000DAE48A /* RxActivityIndicator.framework */; };
+		888CC1E31DE48F9A00DAE48A /* RxActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		888CC1E41DE48FB300DAE48A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436A1DE396290055DA33 /* ActivityIndicator.swift */; };
 		888CC1E51DE48FBA00DAE48A /* ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */; };
-		888CC1E91DE48FFA00DAE48A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1E71DE48FF600DAE48A /* RxCocoa.framework */; };
-		888CC1EB1DE4900400DAE48A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1EA1DE4900400DAE48A /* RxSwift.framework */; };
-		888CC1EC1DE4903900DAE48A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1EA1DE4900400DAE48A /* RxSwift.framework */; };
-		888CC1ED1DE4903B00DAE48A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888CC1E71DE48FF600DAE48A /* RxCocoa.framework */; };
-		88E73C691DE481F600C0D2F6 /* RxSwiftUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxSwiftUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		889CF3401EC766320058D6A4 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CF33F1EC766320058D6A4 /* RxSwift.framework */; };
+		889CF3421EC7663D0058D6A4 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CF3411EC7663D0058D6A4 /* RxCocoa.framework */; };
+		889CF3441EC7664D0058D6A4 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CF3431EC7664D0058D6A4 /* RxSwift.framework */; };
+		889CF3461EC766550058D6A4 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CF3451EC766550058D6A4 /* RxCocoa.framework */; };
+		889CF3491EC7666B0058D6A4 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CF3471EC7666B0058D6A4 /* RxCocoa.framework */; };
+		889CF34A1EC7666B0058D6A4 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CF3481EC7666B0058D6A4 /* RxSwift.framework */; };
+		889CF34D1EC7667C0058D6A4 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CF34B1EC7667C0058D6A4 /* RxCocoa.framework */; };
+		889CF34E1EC7667C0058D6A4 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889CF34C1EC7667C0058D6A4 /* RxSwift.framework */; };
+		88E73C691DE481F600C0D2F6 /* RxActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803430B1DE303160055DA33 /* RxActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88E73C6A1DE4821F00C0D2F6 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8803436A1DE396290055DA33 /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,45 +37,45 @@
 			containerPortal = 880342FF1DE303160055DA33 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 880343071DE303160055DA33;
-			remoteInfo = RxSwiftUtilities;
+			remoteInfo = RxActivityIndicator;
 		};
 		888CC1AA1DE48A1000DAE48A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 880342FF1DE303160055DA33 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 888CC19F1DE48A1000DAE48A;
-			remoteInfo = "RxSwiftUtilities tvOS";
+			remoteInfo = "RxActivityIndicator tvOS";
 		};
 		888CC1D61DE48E9100DAE48A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 880342FF1DE303160055DA33 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 888CC1CB1DE48E9000DAE48A;
-			remoteInfo = "RxSwiftUtilities macOS";
+			remoteInfo = "RxActivityIndicator macOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		880343081DE303160055DA33 /* RxSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8803430B1DE303160055DA33 /* RxSwiftUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxSwiftUtilities.h; sourceTree = "<group>"; };
+		880343081DE303160055DA33 /* RxActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8803430B1DE303160055DA33 /* RxActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxActivityIndicator.h; sourceTree = "<group>"; };
 		8803430C1DE303160055DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		880343111DE303160055DA33 /* RxSwiftUtilitiesTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwiftUtilitiesTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		880343111DE303160055DA33 /* RxActivityIndicatorTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxActivityIndicatorTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		880343181DE303160055DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		880343671DE395A20055DA33 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		8803436A1DE396290055DA33 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		8803436E1DE397170055DA33 /* ActivityIndicatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorTests.swift; sourceTree = "<group>"; };
-		888CC1901DE4839900DAE48A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		888CC1941DE4842B00DAE48A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/watchOS/RxCocoa.framework; sourceTree = "<group>"; };
-		888CC1961DE4843000DAE48A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/watchOS/RxSwift.framework; sourceTree = "<group>"; };
-		888CC1A01DE48A1000DAE48A /* RxSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		888CC1A81DE48A1000DAE48A /* RxSwiftUtilitiesTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwiftUtilitiesTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		888CC1BC1DE48B1300DAE48A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
-		888CC1BE1DE48B1A00DAE48A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/tvOS/RxCocoa.framework; sourceTree = "<group>"; };
-		888CC1CC1DE48E9000DAE48A /* RxSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		888CC1D41DE48E9100DAE48A /* RxSwiftUtilitiesTests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwiftUtilitiesTests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		888CC1E71DE48FF600DAE48A /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
-		888CC1EA1DE4900400DAE48A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
-		88E73C611DE481A100C0D2F6 /* RxSwiftUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		888CC1A01DE48A1000DAE48A /* RxActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		888CC1A81DE48A1000DAE48A /* RxActivityIndicatorTests tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxActivityIndicatorTests tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		888CC1CC1DE48E9000DAE48A /* RxActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		888CC1D41DE48E9100DAE48A /* RxActivityIndicatorTests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxActivityIndicatorTests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		889CF33F1EC766320058D6A4 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		889CF3411EC7663D0058D6A4 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		889CF3431EC7664D0058D6A4 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
+		889CF3451EC766550058D6A4 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
+		889CF3471EC7666B0058D6A4 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/tvOS/RxCocoa.framework; sourceTree = "<group>"; };
+		889CF3481EC7666B0058D6A4 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/tvOS/RxSwift.framework; sourceTree = "<group>"; };
+		889CF34B1EC7667C0058D6A4 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/watchOS/RxCocoa.framework; sourceTree = "<group>"; };
+		889CF34C1EC7667C0058D6A4 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/watchOS/RxSwift.framework; sourceTree = "<group>"; };
+		88E73C611DE481A100C0D2F6 /* RxActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CC1911DE4839900DAE48A /* RxSwift.framework in Frameworks */,
-				880343681DE395A20055DA33 /* RxCocoa.framework in Frameworks */,
+				889CF3421EC7663D0058D6A4 /* RxCocoa.framework in Frameworks */,
+				889CF3401EC766320058D6A4 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880343121DE303160055DA33 /* RxSwiftUtilities.framework in Frameworks */,
+				880343121DE303160055DA33 /* RxActivityIndicator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,8 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CC1C11DE48C6D00DAE48A /* RxSwift.framework in Frameworks */,
-				888CC1C01DE48C6B00DAE48A /* RxCocoa.framework in Frameworks */,
+				889CF34A1EC7666B0058D6A4 /* RxSwift.framework in Frameworks */,
+				889CF3491EC7666B0058D6A4 /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,9 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CC1A91DE48A1000DAE48A /* RxSwiftUtilities.framework in Frameworks */,
-				888CC1C31DE48DE400DAE48A /* RxSwift.framework in Frameworks */,
-				888CC1C41DE48DE700DAE48A /* RxCocoa.framework in Frameworks */,
+				888CC1A91DE48A1000DAE48A /* RxActivityIndicator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +117,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CC1EB1DE4900400DAE48A /* RxSwift.framework in Frameworks */,
-				888CC1E91DE48FFA00DAE48A /* RxCocoa.framework in Frameworks */,
+				889CF3461EC766550058D6A4 /* RxCocoa.framework in Frameworks */,
+				889CF3441EC7664D0058D6A4 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,9 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CC1D51DE48E9100DAE48A /* RxSwiftUtilities.framework in Frameworks */,
-				888CC1EC1DE4903900DAE48A /* RxSwift.framework in Frameworks */,
-				888CC1ED1DE4903B00DAE48A /* RxCocoa.framework in Frameworks */,
+				888CC1D51DE48E9100DAE48A /* RxActivityIndicator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CC1981DE4848300DAE48A /* RxSwift.framework in Frameworks */,
-				888CC1991DE4848500DAE48A /* RxCocoa.framework in Frameworks */,
+				889CF34E1EC7667C0058D6A4 /* RxSwift.framework in Frameworks */,
+				889CF34D1EC7667C0058D6A4 /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,13 +155,13 @@
 		880343091DE303160055DA33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				880343081DE303160055DA33 /* RxSwiftUtilities.framework */,
-				880343111DE303160055DA33 /* RxSwiftUtilitiesTests iOS.xctest */,
-				88E73C611DE481A100C0D2F6 /* RxSwiftUtilities.framework */,
-				888CC1A01DE48A1000DAE48A /* RxSwiftUtilities.framework */,
-				888CC1A81DE48A1000DAE48A /* RxSwiftUtilitiesTests tvOS.xctest */,
-				888CC1CC1DE48E9000DAE48A /* RxSwiftUtilities.framework */,
-				888CC1D41DE48E9100DAE48A /* RxSwiftUtilitiesTests macOS.xctest */,
+				880343081DE303160055DA33 /* RxActivityIndicator.framework */,
+				880343111DE303160055DA33 /* RxActivityIndicatorTests iOS.xctest */,
+				88E73C611DE481A100C0D2F6 /* RxActivityIndicator.framework */,
+				888CC1A01DE48A1000DAE48A /* RxActivityIndicator.framework */,
+				888CC1A81DE48A1000DAE48A /* RxActivityIndicatorTests tvOS.xctest */,
+				888CC1CC1DE48E9000DAE48A /* RxActivityIndicator.framework */,
+				888CC1D41DE48E9100DAE48A /* RxActivityIndicatorTests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,7 +187,7 @@
 		880343321DE315A90055DA33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8803430B1DE303160055DA33 /* RxSwiftUtilities.h */,
+				8803430B1DE303160055DA33 /* RxActivityIndicator.h */,
 				8803430C1DE303160055DA33 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -223,8 +215,8 @@
 		888CC1921DE483AC00DAE48A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				888CC1901DE4839900DAE48A /* RxSwift.framework */,
-				880343671DE395A20055DA33 /* RxCocoa.framework */,
+				889CF33F1EC766320058D6A4 /* RxSwift.framework */,
+				889CF3411EC7663D0058D6A4 /* RxCocoa.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -232,8 +224,8 @@
 		888CC1931DE4841400DAE48A /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				888CC1961DE4843000DAE48A /* RxSwift.framework */,
-				888CC1941DE4842B00DAE48A /* RxCocoa.framework */,
+				889CF34B1EC7667C0058D6A4 /* RxCocoa.framework */,
+				889CF34C1EC7667C0058D6A4 /* RxSwift.framework */,
 			);
 			name = watchOS;
 			sourceTree = "<group>";
@@ -241,8 +233,8 @@
 		888CC1BB1DE48AF800DAE48A /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				888CC1BC1DE48B1300DAE48A /* RxSwift.framework */,
-				888CC1BE1DE48B1A00DAE48A /* RxCocoa.framework */,
+				889CF3471EC7666B0058D6A4 /* RxCocoa.framework */,
+				889CF3481EC7666B0058D6A4 /* RxSwift.framework */,
 			);
 			name = tvOS;
 			sourceTree = "<group>";
@@ -250,8 +242,8 @@
 		888CC1E61DE48FE600DAE48A /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				888CC1EA1DE4900400DAE48A /* RxSwift.framework */,
-				888CC1E71DE48FF600DAE48A /* RxCocoa.framework */,
+				889CF3431EC7664D0058D6A4 /* RxSwift.framework */,
+				889CF3451EC766550058D6A4 /* RxCocoa.framework */,
 			);
 			name = macOS;
 			sourceTree = "<group>";
@@ -263,7 +255,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880343191DE303160055DA33 /* RxSwiftUtilities.h in Headers */,
+				880343191DE303160055DA33 /* RxActivityIndicator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +263,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CC1B81DE48AD700DAE48A /* RxSwiftUtilities.h in Headers */,
+				888CC1B81DE48AD700DAE48A /* RxActivityIndicator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +271,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888CC1E31DE48F9A00DAE48A /* RxSwiftUtilities.h in Headers */,
+				888CC1E31DE48F9A00DAE48A /* RxActivityIndicator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,16 +279,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E73C691DE481F600C0D2F6 /* RxSwiftUtilities.h in Headers */,
+				88E73C691DE481F600C0D2F6 /* RxActivityIndicator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		880343071DE303160055DA33 /* RxSwiftUtilities iOS */ = {
+		880343071DE303160055DA33 /* RxActivityIndicator iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8803431C1DE303160055DA33 /* Build configuration list for PBXNativeTarget "RxSwiftUtilities iOS" */;
+			buildConfigurationList = 8803431C1DE303160055DA33 /* Build configuration list for PBXNativeTarget "RxActivityIndicator iOS" */;
 			buildPhases = (
 				880343031DE303160055DA33 /* Sources */,
 				880343041DE303160055DA33 /* Frameworks */,
@@ -307,14 +299,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxSwiftUtilities iOS";
-			productName = RxSwiftUtilities;
-			productReference = 880343081DE303160055DA33 /* RxSwiftUtilities.framework */;
+			name = "RxActivityIndicator iOS";
+			productName = RxActivityIndicator;
+			productReference = 880343081DE303160055DA33 /* RxActivityIndicator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		880343101DE303160055DA33 /* RxSwiftUtilitiesTests iOS */ = {
+		880343101DE303160055DA33 /* RxActivityIndicatorTests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8803431F1DE303160055DA33 /* Build configuration list for PBXNativeTarget "RxSwiftUtilitiesTests iOS" */;
+			buildConfigurationList = 8803431F1DE303160055DA33 /* Build configuration list for PBXNativeTarget "RxActivityIndicatorTests iOS" */;
 			buildPhases = (
 				8803430D1DE303160055DA33 /* Sources */,
 				8803430E1DE303160055DA33 /* Frameworks */,
@@ -326,14 +318,14 @@
 			dependencies = (
 				880343141DE303160055DA33 /* PBXTargetDependency */,
 			);
-			name = "RxSwiftUtilitiesTests iOS";
-			productName = RxSwiftUtilitiesTests;
-			productReference = 880343111DE303160055DA33 /* RxSwiftUtilitiesTests iOS.xctest */;
+			name = "RxActivityIndicatorTests iOS";
+			productName = RxActivityIndicatorTests;
+			productReference = 880343111DE303160055DA33 /* RxActivityIndicatorTests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		888CC19F1DE48A1000DAE48A /* RxSwiftUtilities tvOS */ = {
+		888CC19F1DE48A1000DAE48A /* RxActivityIndicator tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 888CC1B11DE48A1000DAE48A /* Build configuration list for PBXNativeTarget "RxSwiftUtilities tvOS" */;
+			buildConfigurationList = 888CC1B11DE48A1000DAE48A /* Build configuration list for PBXNativeTarget "RxActivityIndicator tvOS" */;
 			buildPhases = (
 				888CC19B1DE48A1000DAE48A /* Sources */,
 				888CC19C1DE48A1000DAE48A /* Frameworks */,
@@ -344,14 +336,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxSwiftUtilities tvOS";
-			productName = "RxSwiftUtilities tvOS";
-			productReference = 888CC1A01DE48A1000DAE48A /* RxSwiftUtilities.framework */;
+			name = "RxActivityIndicator tvOS";
+			productName = "RxActivityIndicator tvOS";
+			productReference = 888CC1A01DE48A1000DAE48A /* RxActivityIndicator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		888CC1A71DE48A1000DAE48A /* RxSwiftUtilitiesTests tvOS */ = {
+		888CC1A71DE48A1000DAE48A /* RxActivityIndicatorTests tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 888CC1B41DE48A1000DAE48A /* Build configuration list for PBXNativeTarget "RxSwiftUtilitiesTests tvOS" */;
+			buildConfigurationList = 888CC1B41DE48A1000DAE48A /* Build configuration list for PBXNativeTarget "RxActivityIndicatorTests tvOS" */;
 			buildPhases = (
 				888CC1A41DE48A1000DAE48A /* Sources */,
 				888CC1A51DE48A1000DAE48A /* Frameworks */,
@@ -363,14 +355,14 @@
 			dependencies = (
 				888CC1AB1DE48A1000DAE48A /* PBXTargetDependency */,
 			);
-			name = "RxSwiftUtilitiesTests tvOS";
-			productName = "RxSwiftUtilities tvOSTests";
-			productReference = 888CC1A81DE48A1000DAE48A /* RxSwiftUtilitiesTests tvOS.xctest */;
+			name = "RxActivityIndicatorTests tvOS";
+			productName = "RxActivityIndicator tvOSTests";
+			productReference = 888CC1A81DE48A1000DAE48A /* RxActivityIndicatorTests tvOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		888CC1CB1DE48E9000DAE48A /* RxSwiftUtilities macOS */ = {
+		888CC1CB1DE48E9000DAE48A /* RxActivityIndicator macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 888CC1E11DE48E9100DAE48A /* Build configuration list for PBXNativeTarget "RxSwiftUtilities macOS" */;
+			buildConfigurationList = 888CC1E11DE48E9100DAE48A /* Build configuration list for PBXNativeTarget "RxActivityIndicator macOS" */;
 			buildPhases = (
 				888CC1C71DE48E9000DAE48A /* Sources */,
 				888CC1C81DE48E9000DAE48A /* Frameworks */,
@@ -381,14 +373,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxSwiftUtilities macOS";
-			productName = "RxSwiftUtilities macOS";
-			productReference = 888CC1CC1DE48E9000DAE48A /* RxSwiftUtilities.framework */;
+			name = "RxActivityIndicator macOS";
+			productName = "RxActivityIndicator macOS";
+			productReference = 888CC1CC1DE48E9000DAE48A /* RxActivityIndicator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		888CC1D31DE48E9100DAE48A /* RxSwiftUtilitiesTests macOS */ = {
+		888CC1D31DE48E9100DAE48A /* RxActivityIndicatorTests macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 888CC1E21DE48E9100DAE48A /* Build configuration list for PBXNativeTarget "RxSwiftUtilitiesTests macOS" */;
+			buildConfigurationList = 888CC1E21DE48E9100DAE48A /* Build configuration list for PBXNativeTarget "RxActivityIndicatorTests macOS" */;
 			buildPhases = (
 				888CC1D01DE48E9100DAE48A /* Sources */,
 				888CC1D11DE48E9100DAE48A /* Frameworks */,
@@ -400,14 +392,14 @@
 			dependencies = (
 				888CC1D71DE48E9100DAE48A /* PBXTargetDependency */,
 			);
-			name = "RxSwiftUtilitiesTests macOS";
-			productName = "RxSwiftUtilities macOSTests";
-			productReference = 888CC1D41DE48E9100DAE48A /* RxSwiftUtilitiesTests macOS.xctest */;
+			name = "RxActivityIndicatorTests macOS";
+			productName = "RxActivityIndicator macOSTests";
+			productReference = 888CC1D41DE48E9100DAE48A /* RxActivityIndicatorTests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		88E73C601DE481A100C0D2F6 /* RxSwiftUtilities watchOS */ = {
+		88E73C601DE481A100C0D2F6 /* RxActivityIndicator watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88E73C681DE481A100C0D2F6 /* Build configuration list for PBXNativeTarget "RxSwiftUtilities watchOS" */;
+			buildConfigurationList = 88E73C681DE481A100C0D2F6 /* Build configuration list for PBXNativeTarget "RxActivityIndicator watchOS" */;
 			buildPhases = (
 				88E73C5C1DE481A100C0D2F6 /* Sources */,
 				88E73C5D1DE481A100C0D2F6 /* Frameworks */,
@@ -418,9 +410,9 @@
 			);
 			dependencies = (
 			);
-			name = "RxSwiftUtilities watchOS";
-			productName = "RxSwiftUtilities watchOS";
-			productReference = 88E73C611DE481A100C0D2F6 /* RxSwiftUtilities.framework */;
+			name = "RxActivityIndicator watchOS";
+			productName = "RxActivityIndicator watchOS";
+			productReference = 88E73C611DE481A100C0D2F6 /* RxActivityIndicator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -430,7 +422,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = RxSwiftCommunity;
 				TargetAttributes = {
 					880343071DE303160055DA33 = {
@@ -476,13 +468,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				880343071DE303160055DA33 /* RxSwiftUtilities iOS */,
-				888CC1CB1DE48E9000DAE48A /* RxSwiftUtilities macOS */,
-				888CC19F1DE48A1000DAE48A /* RxSwiftUtilities tvOS */,
-				88E73C601DE481A100C0D2F6 /* RxSwiftUtilities watchOS */,
-				880343101DE303160055DA33 /* RxSwiftUtilitiesTests iOS */,
-				888CC1D31DE48E9100DAE48A /* RxSwiftUtilitiesTests macOS */,
-				888CC1A71DE48A1000DAE48A /* RxSwiftUtilitiesTests tvOS */,
+				880343071DE303160055DA33 /* RxActivityIndicator iOS */,
+				888CC1CB1DE48E9000DAE48A /* RxActivityIndicator macOS */,
+				888CC19F1DE48A1000DAE48A /* RxActivityIndicator tvOS */,
+				88E73C601DE481A100C0D2F6 /* RxActivityIndicator watchOS */,
+				880343101DE303160055DA33 /* RxActivityIndicatorTests iOS */,
+				888CC1D31DE48E9100DAE48A /* RxActivityIndicatorTests macOS */,
+				888CC1A71DE48A1000DAE48A /* RxActivityIndicatorTests tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -652,17 +644,17 @@
 /* Begin PBXTargetDependency section */
 		880343141DE303160055DA33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 880343071DE303160055DA33 /* RxSwiftUtilities iOS */;
+			target = 880343071DE303160055DA33 /* RxActivityIndicator iOS */;
 			targetProxy = 880343131DE303160055DA33 /* PBXContainerItemProxy */;
 		};
 		888CC1AB1DE48A1000DAE48A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 888CC19F1DE48A1000DAE48A /* RxSwiftUtilities tvOS */;
+			target = 888CC19F1DE48A1000DAE48A /* RxActivityIndicator tvOS */;
 			targetProxy = 888CC1AA1DE48A1000DAE48A /* PBXContainerItemProxy */;
 		};
 		888CC1D71DE48E9100DAE48A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 888CC1CB1DE48E9000DAE48A /* RxSwiftUtilities macOS */;
+			target = 888CC1CB1DE48E9000DAE48A /* RxActivityIndicator macOS */;
 			targetProxy = 888CC1D61DE48E9100DAE48A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -686,6 +678,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -740,6 +733,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -786,8 +780,8 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RxSwiftCommunity.RxSwiftUtilities;
-				PRODUCT_NAME = RxSwiftUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RxSwiftCommunity.RxActivityIndicator;
+				PRODUCT_NAME = RxActivityIndicator;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -811,8 +805,8 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RxSwiftCommunity.RxSwiftUtilities;
-				PRODUCT_NAME = RxSwiftUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RxSwiftCommunity.RxActivityIndicator;
+				PRODUCT_NAME = RxActivityIndicator;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -828,7 +822,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RxSwiftCommunity.RxSwiftUtilitiesTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RxSwiftCommunity.RxActivityIndicatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -844,7 +838,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.RxSwiftCommunity.RxSwiftUtilitiesTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RxSwiftCommunity.RxActivityIndicatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -865,8 +859,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxSwiftUtilities-tvOS";
-				PRODUCT_NAME = RxSwiftUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxActivityIndicator-tvOS";
+				PRODUCT_NAME = RxActivityIndicator;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -890,8 +884,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxSwiftUtilities-tvOS";
-				PRODUCT_NAME = RxSwiftUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxActivityIndicator-tvOS";
+				PRODUCT_NAME = RxActivityIndicator;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -910,7 +904,7 @@
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxSwiftUtilities-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxActivityIndicator-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
@@ -928,7 +922,7 @@
 				);
 				INFOPLIST_FILE = Source/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxSwiftUtilities-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxActivityIndicator-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
@@ -953,8 +947,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxSwiftUtilities-macOS";
-				PRODUCT_NAME = RxSwiftUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxActivityIndicator-macOS";
+				PRODUCT_NAME = RxActivityIndicator;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -978,8 +972,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxSwiftUtilities-macOS";
-				PRODUCT_NAME = RxSwiftUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxActivityIndicator-macOS";
+				PRODUCT_NAME = RxActivityIndicator;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -999,7 +993,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxSwiftUtilities-macOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxActivityIndicator-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
@@ -1019,7 +1013,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxSwiftUtilities-macOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxActivityIndicator-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
@@ -1042,8 +1036,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxSwiftUtilities-watchOS";
-				PRODUCT_NAME = RxSwiftUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxActivityIndicator-watchOS";
+				PRODUCT_NAME = RxActivityIndicator;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -1068,8 +1062,8 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxSwiftUtilities-watchOS";
-				PRODUCT_NAME = RxSwiftUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RxSwiftCommunity.RxActivityIndicator-watchOS";
+				PRODUCT_NAME = RxActivityIndicator;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -1090,7 +1084,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8803431C1DE303160055DA33 /* Build configuration list for PBXNativeTarget "RxSwiftUtilities iOS" */ = {
+		8803431C1DE303160055DA33 /* Build configuration list for PBXNativeTarget "RxActivityIndicator iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8803431D1DE303160055DA33 /* Debug */,
@@ -1099,7 +1093,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8803431F1DE303160055DA33 /* Build configuration list for PBXNativeTarget "RxSwiftUtilitiesTests iOS" */ = {
+		8803431F1DE303160055DA33 /* Build configuration list for PBXNativeTarget "RxActivityIndicatorTests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				880343201DE303160055DA33 /* Debug */,
@@ -1108,7 +1102,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		888CC1B11DE48A1000DAE48A /* Build configuration list for PBXNativeTarget "RxSwiftUtilities tvOS" */ = {
+		888CC1B11DE48A1000DAE48A /* Build configuration list for PBXNativeTarget "RxActivityIndicator tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				888CC1B21DE48A1000DAE48A /* Debug */,
@@ -1117,7 +1111,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		888CC1B41DE48A1000DAE48A /* Build configuration list for PBXNativeTarget "RxSwiftUtilitiesTests tvOS" */ = {
+		888CC1B41DE48A1000DAE48A /* Build configuration list for PBXNativeTarget "RxActivityIndicatorTests tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				888CC1B51DE48A1000DAE48A /* Debug */,
@@ -1126,7 +1120,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		888CC1E11DE48E9100DAE48A /* Build configuration list for PBXNativeTarget "RxSwiftUtilities macOS" */ = {
+		888CC1E11DE48E9100DAE48A /* Build configuration list for PBXNativeTarget "RxActivityIndicator macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				888CC1DD1DE48E9100DAE48A /* Debug */,
@@ -1135,7 +1129,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		888CC1E21DE48E9100DAE48A /* Build configuration list for PBXNativeTarget "RxSwiftUtilitiesTests macOS" */ = {
+		888CC1E21DE48E9100DAE48A /* Build configuration list for PBXNativeTarget "RxActivityIndicatorTests macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				888CC1DF1DE48E9100DAE48A /* Debug */,
@@ -1144,7 +1138,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88E73C681DE481A100C0D2F6 /* Build configuration list for PBXNativeTarget "RxSwiftUtilities watchOS" */ = {
+		88E73C681DE481A100C0D2F6 /* Build configuration list for PBXNativeTarget "RxActivityIndicator watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88E73C661DE481A100C0D2F6 /* Debug */,

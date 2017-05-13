@@ -1,5 +1,5 @@
 use_frameworks!
 
 target "ExampleApp" do
-  pod "RxSwiftUtilities", :path => "../"
+  pod "RxActivityIndicator", :path => "../"
 end
